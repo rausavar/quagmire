@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/42/trunk/cpugpusim/bash-scripts/run_scripts/parboil
+END
+mainscript_histo
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/42/trunk/cpugpusim/bash-scripts/run_scripts/parboil/mainscript_histo
+END
+mainscript_sad
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/parboil/mainscript_sad
+END
+mainscript_mm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/parboil/mainscript_mm
+END
+mainscript_lbm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/parboil/mainscript_lbm
+END
+mainscript_tpacf
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/parboil/mainscript_tpacf
+END
+mainscript_cutcp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/parboil/mainscript_cutcp
+END
+mainscript_fft
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/parboil/mainscript_fft
+END
+mainscript_spmv
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/parboil/mainscript_spmv
+END

@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA
+END
+mainscript_TRA
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_TRA
+END
+mainscript_denoise
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_denoise
+END
+mainscript_WP
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_WP
+END
+mainscript_bitonic
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_bitonic
+END
+mainscript_DG
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_DG
+END
+mainscript_RAY
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_RAY
+END
+mainscript_SHA1
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_SHA1
+END
+mainscript_BlackScholes
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_BlackScholes
+END
+mainscript_MUM
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_MUM
+END
+mainscript_LPS
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_LPS
+END
+mainscript_FWT
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_FWT
+END
+mainscript_CP
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_CP
+END
+mainscript_CONS
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_CONS
+END
+mainscript_NQU
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_NQU
+END
+mainscript_STO
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_STO
+END
+mainscript_LIB
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_LIB
+END
+mainscript_SAD
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_SAD
+END
+mainscript_AES
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_AES
+END
+mainscript_BFS
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_BFS
+END
+mainscript_template
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_template
+END
+mainscript_NN
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_NN
+END
+mainscript_DVC
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_DVC
+END
+mainscript_kmeans
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_kmeans
+END
+mainscript_SLA
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_SLA
+END
+mainscript_radixsort
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_radixsort
+END
+mainscript_SCP
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_SCP
+END
+mainscript_JPEG
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/CUDA/mainscript_JPEG
+END

@@ -1,0 +1,1 @@
+./dmr ./inputs/r1M > output_dmr.txt

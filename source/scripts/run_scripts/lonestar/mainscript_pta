@@ -1,0 +1,1 @@
+./pta ./inputs/ex_nodes.txt ./inputs/ex_constraints_after_hcd.txt ./inputs/ex_hcd.txt ./inputs/ex_correct_soln_001.txt > output_pta.txt

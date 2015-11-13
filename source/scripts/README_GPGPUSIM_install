@@ -1,0 +1,80 @@
+1. Install gcc-4.4 and g++-4.4 as default compilers in the system
+2. Install linux packages
+   make, makedepend, zlib, xutils, bison, flex, libglut3-dev, libxi-dev, libxmu-dev, 
+   (less important) python-pmw, python-ply, python-numpy, python-matplotlib,  libpng12-dev, doxygen, graphviz
+
+   For ubuntu
+   	sudo apt-get install build-essential xutils-dev bison zlib1g-dev flex libglu1-mesa-dev doxygen graphviz python-pmw python-ply python-numpy libpng12-dev python-matplotlib freeglut3-dev libxmu-dev libxi-dev 
+
+3. Install Nvidia drivers 
+   For ubuntu
+   	sudo apt-add-repository ppa:ubuntu-x-swat/x-updates
+	sudo apt-get update
+	udo apt-get install nvidia-current
+
+4. Find location of libcuda.so and libcuda.so.1 . For default ubuntu, they are in a location like /usr/lib/nvidia-current or /usr/lib/nvidia-304. Create a soft link to these libraries from /usr/lib. 
+	e.g., 	sudo ln -s /usr/lib/nvidia-current/libcuda.so /usr/lib/libcuda.so 
+		sudo ln -s /usr/lib/nvidia-current/libcuda.so.1 /usr/lib/libcuda.so.1 
+
+5. (This step may not be necessary)
+Create soft links to libGL.so.1 from /usr/lib/libGL.so (This maybe where examples in NVIDIA Computing SDK looks by default for libGL). Determine location of libGL.so.1 by 
+		locate libGL 
+It should return a location like /usr/lib/nvidia-304/libGL.so.1 . Create soft links to this. 
+		sudo rm /usr/lib/libGL.so
+		sudo ln -s /usr/lib/nvidia-304/libGL.so.1 /usr/lib/libGL.so
+
+If the SDK knows where to look for libraries, creating this soft link may not be essential. 
+
+6. Create a GPU Project directory. 
+	mkdir GPUProject
+	cd GPUProject
+Download and install CUDA toolkit. After download, cd to the location where downloaded:
+	wget http://developer.download.nvidia.com/compute/cuda/4_0/toolkit/cudatoolkit_4.0.17_linux_64_ubuntu10.10.run
+	chmod +x cudatoolkit_4.0.17_linux_64_ubuntu10.10.run
+	./cudatoolkit_4.0.17_linux_64_ubuntu10.10.run
+Press enter when asked for install path. This will install CUDA toolkit to default location /usr/local/cuda. 
+
+7. Save following environment variables in both ~/.profile and ~/.bashrc and save. Append these lines at the end.
+	export PATH=/usr/local/cuda/bin:$PATH
+	export LD_LIBRARY_PATH=/usr/local/cuda/lib:$LD_LIBRARY_PATH
+
+8. In your GPUProject directory, download and install NVIDIA GPU Computing SDK.
+	wget http://developer.download.nvidia.com/compute/cuda/4_0/sdk/gpucomputingsdk_4.0.17_linux.run 
+	chmod +x gpucomputingsdk_4.0.17_linux.run
+	./gpucomputingsdk_4.0.17_linux.run
+Press enter when asked for install path. This will install Computing SDK to default location ~/NVIDIA_GPU_Computing_SDK .
+
+9. Open NVIDIA_GPU_Computing_SDK/C/common/common.mk. Change the order of $(RENDERCHECKGLLIB) and ${OPENGLLIB} whenever they appear in the same line and save. Then compile the examples in the SDk.
+	cd ~/NVIDIA_GPU_Computing_SDK/C
+	make
+
+10. Setup and configure git. Checkout the gpu-compression repository. 
+	git clone username@machine:/safari/dromedary/rausavar/repo/GPGPU.git
+
+11. Make appropriate changes to set_env.sh in gpu-compression. Change the following environment variables appropriately : 
+	CUDAHOME=/usr/local/cuda, GPGPUSIM_ROOT, CUDA_INSTALL_PATH,  
+	NVIDIA_CUDA_SDK_LOCATION=/home/<Output of whoami command>/NVIDIA_GPU_Computing_SDK, PARBOIL_ROOT
+	
+12. Set environment variables and build gpgpu-sim
+	source set_env.sh
+	cd v3.x
+	source setup_environment.sh
+	make
+
+
+Troubleshooting problems with building benchmarks (should have already been resolved): 
+i. cannot find cutil.h
+    This file is included   NVIDIA_GPU_Computing_SDK/C/common/inc
+    Thus, the library path should be NVIDIA_GPU_Computing_SDK/C/lib
+
+    As we are running this program in X86_64, so the original -lcutil should be modified to -lcutil_x86_64 in the file NVIDIA_GPU_Computing_SDK/C/common/common.mk
+
+ii. cannot find **.cu, no such file or directory.
+In the source file the authors write  #include <**.cu>,  we should change it to "**.cu".
+
+
+iii. error: ‘uint32_t’ does not name a type
+ #include <stdint.h> in the source file
+
+
+

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/mars
+END
+mainscript_InvertedIndex
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/mars/mainscript_InvertedIndex
+END
+mainscript_Kmeans
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/mars/mainscript_Kmeans
+END
+mainscript_PageViewCount
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/mars/mainscript_PageViewCount
+END
+mainscript_SimilarityScore
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/mars/mainscript_SimilarityScore
+END
+mainscript_MatrixMul
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/mars/mainscript_MatrixMul
+END
+mainscript_StringMatch
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/mars/mainscript_StringMatch
+END
+mainscript_PageViewRank
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/mars/mainscript_PageViewRank
+END
+mainscript_WordCount
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/mars/mainscript_WordCount
+END

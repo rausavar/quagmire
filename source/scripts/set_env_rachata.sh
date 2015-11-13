@@ -1,0 +1,12 @@
+export GPGPUSIM_ROOT=/home/rachata/mafia-gpgpu
+export CUDAHOME=/usr/local/cuda
+export LD_LIBRARY_PATH=$CUDAHOME/lib/:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$CUDAHOME/lib64/:$LD_LIBRARY_PATH:/usr/local/cuda/lib/:
+export LD_LIBRARY_PATH=$GPGPUSIM_ROOT/lib/4000/release:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$GPGPUSIM_ROOT/lib/4000/release:$GPGPUSIM_ROOT/lib/4000/release:/usr/cuda/lib64/:/usr/cuda/lib/:$GPGPUSIM_ROOT/lib/4000/release:/usr/cuda/lib64/:/usr/cuda/lib/:/usr/local/cuda/lib:/usr/local/cuda/lib:
+export CUDA_INSTALL_PATH=/usr/local/cuda
+export NVIDIA_CUDA_SDK_LOCATION=/home/rachata/NVIDIA_GPU_Computing_SDK
+export GPGPUSIM_POWER_MODEL=$GPGPUSIM_ROOT/v3.x/src/gpuwattch
+export PATH=$CUDAHOME/bin/:$PATH
+export BOOST_ROOT=/home/rachata/boost_1_54_0
+export PARBOIL_ROOT=$GPGPUSIM_ROOT/benchmarks/parboil

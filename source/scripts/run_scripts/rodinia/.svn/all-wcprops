@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/42/trunk/cpugpusim/bash-scripts/run_scripts/rodinia
+END
+mainscript_pf_naive
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_pf_naive
+END
+mainscript_myocyte
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/42/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_myocyte
+END
+mainscript_pf_float
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_pf_float
+END
+mainscript_cfd
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_cfd
+END
+mainscript_streamcluster
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_streamcluster
+END
+mainscript_srad_v1
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_srad_v1
+END
+mainscript_hotspot
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_hotspot
+END
+mainscript_srad_v2
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_srad_v2
+END
+mainscript_backprop
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_backprop
+END
+mainscript_leukocyte
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_leukocyte
+END
+mainscript_lavaMD
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/42/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_lavaMD
+END
+mainscript_gaussian
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/42/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_gaussian
+END
+mainscript_bfs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_bfs
+END
+mainscript_b+tree
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/42/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_b+tree
+END
+mainscript_heartwall
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_heartwall
+END
+mainscript_nw
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_nw
+END
+mainscript_lud
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_lud
+END
+mainscript_pathfinder
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/42/trunk/cpugpusim/bash-scripts/run_scripts/rodinia/mainscript_pathfinder
+END

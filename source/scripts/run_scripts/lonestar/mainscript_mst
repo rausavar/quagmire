@@ -1,0 +1,1 @@
+./mst ./inputs/USA-road-d.FLA.gr > output_mst.txt

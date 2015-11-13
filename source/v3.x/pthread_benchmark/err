@@ -1,0 +1,99 @@
+g++ -pthread -Wall    -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c SPMV/gpu_info.cpp -o gpu_info.cpp_o
+SPMV/gpu_info.cpp: In function ‘void compute_active_thread(unsigned int*, unsigned int*, int, int, int, int, int, int)’:
+SPMV/gpu_info.cpp:53: warning: unused variable ‘threads_per_sm’
+g++ -pthread -Wall    -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c SPMV/file.cpp -o file.cpp_o
+SPMV/file.cpp: In function ‘void inputData(char*, int*, int*, int*, int*, int*, float**, int**, int**, int**, int**)’:
+SPMV/file.cpp:35: warning: unused variable ‘_pad’
+g++ -pthread -Wall    -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c SC/streamcluster_cuda_cpu.cpp -o streamcluster_cuda_cpu.cpp_o
+SC/streamcluster_cuda_cpu.cpp: In function ‘float pkmedian(Points*, long int, long int, long int*, int, pthread_barrier_t*, CUstream_st*, pthread_mutex_t*, bool)’:
+SC/streamcluster_cuda_cpu.cpp:466: warning: unused variable ‘numberOfPoints’
+SC/streamcluster_cuda_cpu.cpp: In function ‘void outcenterIDs(Points*, long int*, char*)’:
+SC/streamcluster_cuda_cpu.cpp:759: warning: format ‘%u’ expects type ‘unsigned int’, but argument 3 has type ‘long int’
+SC/streamcluster_cuda_cpu.cpp: In function ‘void streamCluster(PStream*, long int, long int, int, long int, long int, char*, CUstream_st*, pthread_mutex_t*, bool)’:
+SC/streamcluster_cuda_cpu.cpp:807: warning: format ‘%d’ expects type ‘int’, but argument 3 has type ‘size_t’
+SC/streamcluster_cuda_cpu.cpp:809: warning: suggest parentheses around ‘&&’ within ‘||’
+SC/streamcluster_cuda_cpu.cpp: In function ‘int main_streamcluster(CUstream_st*, pthread_mutex_t*, bool)’:
+SC/streamcluster_cuda_cpu.cpp:867: warning: unused variable ‘infilename’
+SC/streamcluster_cuda_cpu.cpp: At global scope:
+SC/streamcluster_cuda_cpu.cpp:94: warning: ‘int floatcomp(const void*, const void*)’ defined but not used
+g++ -pthread -Wall    -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c QTC/libdata.cpp -o libdata.cpp_o
+In file included from /home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/cutil_inline.h:16,
+                 from QTC/../benchmark_common.h:2,
+                 from QTC/qtclib.h:3,
+                 from QTC/libdata.h:5,
+                 from QTC/libdata.cpp:12:
+/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/cutil.h:793: warning: "CUDA_SAFE_CALL" redefined
+QTC/cudacommon.h:28: note: this is the location of the previous definition
+QTC/libdata.cpp:64: warning: "/*" within comment
+QTC/libdata.cpp:82: warning: "/*" within comment
+QTC/libdata.cpp:84: warning: "/*" within comment
+QTC/libdata.cpp:97: warning: "/*" within comment
+QTC/libdata.cpp:137: warning: "/*" within comment
+g++ -pthread -Wall    -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c RAY/EasyBMP.cpp -o EasyBMP.cpp_o
+RAY/EasyBMP.cpp: In member function ‘bool BMP::ReadFromFile(const char*)’:
+RAY/EasyBMP.cpp:994: warning: unused variable ‘ZeroWORD’
+g++ -pthread -Wall    -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c RAY/makebmp.cpp -o makebmp.cpp_o
+g++ -pthread -Wall    -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c CONS/main.cpp -o main.cpp_o
+CONS/main.cpp: In function ‘int main_CONS(CUstream_st*, pthread_mutex_t*, bool)’:
+CONS/main.cpp:193: warning: no return statement in function returning non-void
+g++ -pthread -Wall    -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c CONS/convolutionSeparable_gold.cpp -o convolutionSeparable_gold.cpp_o
+g++ -pthread -Wall    -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c BP/backprop.cpp -o backprop.cpp_o
+BP/backprop.cpp: In function ‘float squash(float)’:
+BP/backprop.cpp:45: warning: unused variable ‘m’
+BP/backprop.cpp: In function ‘BPNN* bpnn_read(char*)’:
+BP/backprop.cpp:437: warning: unused variable ‘fd’
+g++ -pthread -Wall    -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c FWT/fastWalshTransform_gold.cpp -o fastWalshTransform_gold.cpp_o
+g++ -pthread -Wall    -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c LPS/laplace3d_gold.cpp -o laplace3d_gold.cpp_o
+g++ -pthread -Wall    -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c SCP/scalarProd_gold.cpp -o scalarProd_gold.cpp_o
+g++ -pthread -Wall    -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c JPEG/BmpUtil.cpp -o BmpUtil.cpp_o
+g++ -pthread -Wall    -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c JPEG/DCT8x8_Gold.cpp -o DCT8x8_Gold.cpp_o
+g++ -pthread -Wall    -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c MM/io.cpp -o io.cpp_o
+MM/io.cpp: In function ‘bool writeColMajorMatrixFile(const char*, int, int, std::vector<float, std::allocator<float> >&)’:
+MM/io.cpp:52: warning: comparison between signed and unsigned integer expressions
+MM/io.cpp:50: warning: unused variable ‘data’
+MM/io.cpp: In function ‘bool readColMajorMatrixFile(const char*, int&, int&, std::vector<float, std::allocator<float> >&)’:
+MM/io.cpp:37: warning: control reaches end of non-void function
+g++ -pthread -Wall    -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c BLK/BlackScholes_gold.cpp -o BlackScholes_gold.cpp_o
+gcc -pthread -Wall     -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c SAD/file.c -o file.c_o
+gcc -pthread -Wall     -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c SAD/image.c -o image.c_o
+gcc -pthread -Wall     -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c FFT/parboil.c -o parboil.c_o
+FFT/parboil.c: In function ‘pb_FreeParameters’:
+FFT/parboil.c:206: warning: unused variable ‘cpp’
+FFT/parboil.c: At top level:
+FFT/parboil.c:245: warning: missing terminating " character
+FFT/parboil.c:238: warning: ‘get_time’ defined but not used
+gcc -pthread -Wall     -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c LUD/common/common.c -o common.c_o
+LUD/common/common.c: In function ‘lud_verify’:
+LUD/common/common.c:186: warning: control reaches end of non-void function
+LUD/common/common.c: In function ‘create_matrix_from_random’:
+LUD/common/common.c:115: warning: ‘m’ may be used uninitialized in this function
+gcc -pthread -Wall     -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c SRAD/graphics.c -o graphics.c_o
+gcc -pthread -Wall     -I/usr/local/cuda/include -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -g -c SRAD/timer.c -o timer.c_o
+nvcc  -c -arch sm_20 --keep --compiler-options -fno-strict-aliasing \
+		-I. -I/usr/local/cuda/include/ -I"/home/rachata/NVIDIA_GPU_Computing_SDK/C/common/inc/" \
+		  -L"/home/rachata/NVIDIA_GPU_Computing_SDK/C/lib" -lcutil_x86_64 -DUNIX main.cu -o mergedapps 
+main.cu: In function ‘int main(int, char**)’:
+main.cu:329: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+main.cu:338: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+main.cu:345: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+main.cu:352: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+main.cu:374: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+main.cu:376: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+main.cu:403: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+main.cu:405: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+main.cu:407: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+gcc -pthread -Wall  -g -c main.cu.cpp -o main.cu_o
+main.cu: In function ‘int main(int, char**)’:
+main.cu:329: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+main.cu:338: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+main.cu:345: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+main.cu:352: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+main.cu:374: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+main.cu:376: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+main.cu:403: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+main.cu:405: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+main.cu:407: warning: format ‘%ld’ expects type ‘long int’, but argument 2 has type ‘int’
+/home/rachata/mafia-gpgpu/v3.x/scripts/gen_ptxinfo
+Generating main.ptxinfo...
+make: *** [main.cu_o] Error 255
+

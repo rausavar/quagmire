@@ -1,0 +1,129 @@
+./run_gpgpu_simulations_rachata.py -configs GTX480_baseline -label baseline_noaware_new -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_baseline -label baseline_noaware_new -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_baseline -label baseline_noaware_new -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_baseline -label baseline_noaware_new -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_baseline -label baseline_noaware_new -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_baseline -label baseline_noaware_new -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_priomf -label baseline_20th_80upper_priomf -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_priomf -label baseline_20th_80upper_priomf -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_priomf -label baseline_20th_80upper_priomf -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_priomf -label baseline_20th_80upper_priomf -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_priomf -label baseline_20th_80upper_priomf -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_priomf -label baseline_20th_80upper_priomf -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_priomf -label baseline_10th_80upper_priomf -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_priomf -label baseline_10th_80upper_priomf -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_priomf -label baseline_10th_80upper_priomf -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_priomf -label baseline_10th_80upper_priomf -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_priomf -label baseline_10th_80upper_priomf -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_priomf -label baseline_10th_80upper_priomf -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_80upper_priomf -label baseline_40th_80upper_priomf -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_80upper_priomf -label baseline_40th_80upper_priomf -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_80upper_priomf -label baseline_40th_80upper_priomf -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_80upper_priomf -label baseline_40th_80upper_priomf -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_80upper_priomf -label baseline_40th_80upper_priomf -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_80upper_priomf -label baseline_40th_80upper_priomf -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_priomf -label baseline_20th_90upper_priomf -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_priomf -label baseline_20th_90upper_priomf -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_priomf -label baseline_20th_90upper_priomf -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_priomf -label baseline_20th_90upper_priomf -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_priomf -label baseline_20th_90upper_priomf -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_priomf -label baseline_20th_90upper_priomf -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_priomf -label baseline_10th_90upper_priomf -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_priomf -label baseline_10th_90upper_priomf -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_priomf -label baseline_10th_90upper_priomf -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_priomf -label baseline_10th_90upper_priomf -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_priomf -label baseline_10th_90upper_priomf -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_priomf -label baseline_10th_90upper_priomf -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_90upper_priomf -label baseline_40th_90upper_priomf -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_90upper_priomf -label baseline_40th_90upper_priomf -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_90upper_priomf -label baseline_40th_90upper_priomf -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_90upper_priomf -label baseline_40th_90upper_priomf -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_90upper_priomf -label baseline_40th_90upper_priomf -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_90upper_priomf -label baseline_40th_90upper_priomf -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_60upper_priomf -label baseline_40th_60upper_priomf -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_60upper_priomf -label baseline_40th_60upper_priomf -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_60upper_priomf -label baseline_40th_60upper_priomf -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_60upper_priomf -label baseline_40th_60upper_priomf -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_60upper_priomf -label baseline_40th_60upper_priomf -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_60upper_priomf -label baseline_40th_60upper_priomf -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_100kcycles_priomf -label baseline_20th_80upper_100kcycles_priomf -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_100kcycles_priomf -label baseline_20th_80upper_100kcycles_priomf -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_100kcycles_priomf -label baseline_20th_80upper_100kcycles_priomf -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_100kcycles_priomf -label baseline_20th_80upper_100kcycles_priomf -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_100kcycles_priomf -label baseline_20th_80upper_100kcycles_priomf -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_100kcycles_priomf -label baseline_20th_80upper_100kcycles_priomf -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_100kcycles_priomf -label baseline_10th_80upper_100kcycles_priomf -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_100kcycles_priomf -label baseline_10th_80upper_100kcycles_priomf -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_100kcycles_priomf -label baseline_10th_80upper_100kcycles_priomf -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_100kcycles_priomf -label baseline_10th_80upper_100kcycles_priomf -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_100kcycles_priomf -label baseline_10th_80upper_100kcycles_priomf -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_100kcycles_priomf -label baseline_10th_80upper_100kcycles_priomf -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_100kcycles_priomf -label baseline_20th_90upper_100kcycles_priomf -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_100kcycles_priomf -label baseline_20th_90upper_100kcycles_priomf -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_100kcycles_priomf -label baseline_20th_90upper_100kcycles_priomf -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_100kcycles_priomf -label baseline_20th_90upper_100kcycles_priomf -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_100kcycles_priomf -label baseline_20th_90upper_100kcycles_priomf -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_100kcycles_priomf -label baseline_20th_90upper_100kcycles_priomf -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_100kcycles_priomf -label baseline_10th_90upper_100kcycles_priomf -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_100kcycles_priomf -label baseline_10th_90upper_100kcycles_priomf -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_100kcycles_priomf -label baseline_10th_90upper_100kcycles_priomf -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_100kcycles_priomf -label baseline_10th_90upper_100kcycles_priomf -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_100kcycles_priomf -label baseline_10th_90upper_100kcycles_priomf -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_100kcycles_priomf -label baseline_10th_90upper_100kcycles_priomf -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_100kcycles -label baseline_20th_80upper_100kcycles -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_100kcycles -label baseline_20th_80upper_100kcycles -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_100kcycles -label baseline_20th_80upper_100kcycles -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_100kcycles -label baseline_20th_80upper_100kcycles -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_100kcycles -label baseline_20th_80upper_100kcycles -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_80upper_100kcycles -label baseline_20th_80upper_100kcycles -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_100kcycles -label baseline_10th_80upper_100kcycles -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_100kcycles -label baseline_10th_80upper_100kcycles -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_100kcycles -label baseline_10th_80upper_100kcycles -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_100kcycles -label baseline_10th_80upper_100kcycles -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_100kcycles -label baseline_10th_80upper_100kcycles -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_80upper_100kcycles -label baseline_10th_80upper_100kcycles -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_100kcycles -label baseline_20th_90upper_100kcycles -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_100kcycles -label baseline_20th_90upper_100kcycles -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_100kcycles -label baseline_20th_90upper_100kcycles -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_100kcycles -label baseline_20th_90upper_100kcycles -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_100kcycles -label baseline_20th_90upper_100kcycles -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_20th_90upper_100kcycles -label baseline_20th_90upper_100kcycles -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_100kcycles -label baseline_10th_90upper_100kcycles -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_100kcycles -label baseline_10th_90upper_100kcycles -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_100kcycles -label baseline_10th_90upper_100kcycles -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_100kcycles -label baseline_10th_90upper_100kcycles -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_100kcycles -label baseline_10th_90upper_100kcycles -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_100kcycles -label baseline_10th_90upper_100kcycles -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_60upper_1mcycles_priomf -label baseline_40th_60upper_1mcycles_priomf -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_60upper_1mcycles_priomf -label baseline_40th_60upper_1mcycles_priomf -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_60upper_1mcycles_priomf -label baseline_40th_60upper_1mcycles_priomf -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_60upper_1mcycles_priomf -label baseline_40th_60upper_1mcycles_priomf -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_60upper_1mcycles_priomf -label baseline_40th_60upper_1mcycles_priomf -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_40th_60upper_1mcycles_priomf -label baseline_40th_60upper_1mcycles_priomf -batch 6 -result_dir results
+
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_1mcycles_priomf -label baseline_10th_90upper_1mcycles_priomf -batch 1 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_1mcycles_priomf -label baseline_10th_90upper_1mcycles_priomf -batch 2 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_1mcycles_priomf -label baseline_10th_90upper_1mcycles_priomf -batch 3 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_1mcycles_priomf -label baseline_10th_90upper_1mcycles_priomf -batch 4 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_1mcycles_priomf -label baseline_10th_90upper_1mcycles_priomf -batch 5 -result_dir results
+./run_gpgpu_simulations_rachata.py -configs GTX480_10th_90upper_1mcycles_priomf -label baseline_10th_90upper_1mcycles_priomf -batch 6 -result_dir results
+
+
+
+

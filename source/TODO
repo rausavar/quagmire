@@ -1,0 +1,12 @@
+sim:
+
+- Fix L2 cache
+-- Add the shadow history for each warp
+--- This should be requests coming out of the icnt_wrapper
+-- For warps that does not benefit from the cache -> bypass the cache
+--- Then prioritize warps with low number of L2 misses in the memory
+- See if we can learn from the first thread in the warp
+-- If the cache access will become the miss
+-- If we can prefetch future warps (given that warp schedulers is somewhat deterministic)
+
+
