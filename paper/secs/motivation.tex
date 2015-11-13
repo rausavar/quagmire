@@ -1,0 +1,60 @@
+\section{motivation}
+
+\subsection{Potential Gain when Concurrently Running GPGPU Applications}
+
+
+
+\subsection{Providing Protection for multiple GPGPU applications}
+
+When multiple applications are concurrently running under a unified address
+space, it is possible that memory access from one application falls under other
+applicaiton address space. In this case, the memory subsystem has to provide
+protection guarantee in order to ensure that 1) the aggressor application's
+access will incur page fault, allowing the memory management unit to handle
+the fault and 2) ensure that the victim is not impact by this access violation.
+
+Figure~\ref{fig:impact-fault} shows the performance impact of a system with two
+GPGPU applications running and one GPGPU application causing multiple TLB
+flushes in a row compared to the case when both applications are running alone.
+In this case, the performance of the GPGPU application is heavily affected by
+the aggressor GPGPU application that causes multiple TLB flushes. In this case,
+we propose a TLB design that prevent both access violation as well as performance
+impact due to faults from other GPGPU applications.
+
+
+\subsection{Providing Performance Isolation across differing GPGPU applications}
+
+When multiple GPGPU applications are concurrently running. It is possible that
+one GPGPU application occupies most, if not all, GPU resources at any given
+time.  This results in severe slowdown for other GPGPU applications that are
+concurrently running. Figure~\ref{fig:slowdown-example} shows a case of two
+GPGPU applications, both of which enter the memory-bound episode at the same
+time. As shown, the first GPGPU application enters the memory bound episode
+slightly before the second GPGPU application. Three observation are in order. First,
+because the first application gets to send most of it memory request before
+the second application, when the second application enters its memory episode,
+the shared cache are being filled by data from the first applications, causing
+the initial slowdown for the second application. Second, after the second application
+enters it memory episode for a while, interference from both applications causes
+severe slowdown to both application. Lastly, after these applications are running
+for a while and one of the incur a TLB flush, the TLB flush cause slowdown to the
+entire memory system.
+
+\subsection{Support for Context Switch in GPUs}
+
+Lastly, when there is an interrupt or an exception, the GPU will have to be
+able to handle the long latency of the interrupt to resolve. These latency
+generally range in hundred thousand to million cycles. Generally, when these
+interrupt occurs in other systems, an interrupt handler from the Operating
+system will handle the interrupt while the processor perform a context switch
+and run other processes during this event in order to utilize the stalling
+cores. However, in GPU, two major components are missing.  First, preemption
+does not exist and the application current running on the GPU will stall.
+Second, there is no operating system to handle the interrupt. In this work, we
+address both problems by first introducing cross-cores task migration, which
+allows other concurrent applications from other cores to migrate, acting
+similar to a context switch. Second, we introduce [TODO: Continue]
+
+
+
+

@@ -1,0 +1,72 @@
+\section{introduction}
+
+Graphic Processing Units (GPUs) has been widely used to accelerate computations
+of many general purpose applications (GPGPU applications) due to the amount of
+parallelism that the GPUs provides. Previous works have shown that GPU can
+speedup applications from tens to hundreds times compared to their CPU
+counterparts. This is especially true when and application can be easily
+parallelizable into many independent threads that operate on multiple different
+data because of the SIMD nature of the GPU.
+
+While many applications benefits from the GPU. Not all of them can fully utilize
+resources available on the GPU. While some application has high parallelism, they
+might not fully utilize the GPU memory. Similarly, some applications that are not
+as parallelizable might occupy fewer number of cores but utilize more off-chip memory
+of the GPU. This heterogeneity creates opportunities for the GPU to service multiple
+applications concurrently. [Some motivational example here].
+
+NVIDIA GRID~\cite{grid} proposes a hardware support for multiple applications, which
+can be in the form of multiple virtual machines, to share a single GPU card. However,
+GRID architecture only support up to four virtual machines at the same time, and resource
+are being statically partitioned across virtual machines, reducing the efficiency of
+the resource utilization.
+
+In order to make a better use of GPU resources, one possibility is to run
+multiple instances of the virtual machines in parallel and manage all the
+resources dynamically. To support multiple instances of the virtual machines,
+several hardware changes are required to ensure performance and security
+isolation across different guests.
+
+One of the key components that is shared across multiple virtual machines are
+the shared memory. Specifically, the memory management units (MMU) and the
+translation lookaside buffers (TLB) has to be able to handle the unified address
+commonly used in recent GPUs~\cite{kepler, fermi}, not only for a single GPGPU application
+but also for multiple GPGPU applications that are running on different virtual machines.
+
+Our design goals are the following. First, the design has to provide
+performance isolatino with minimal hardware changes. Second, the design must be
+able to handle new operations that comes with the ability to share the GPU
+across multiple clients. These operations includes double fault handling,
+access violation, memory mapping, etc. Lastly, the new design has to be
+compatible to the existing CUDA and OpenCL runtimes. To meet these goals and
+minimize the amount of hardware changes, we propose\titleLong (\titleShort), a
+new cooperative resource management and  TLB design that provides both
+performance isolation for different guests sharing the GPU.  \titleShort
+ensures that operations from one applications will not affect the performance
+of another applications.  Additionally, \titleShort also protects applications
+from long latency operations such as TLB flushs and exceptions such as double
+faults.
+
+In this work, we make these following new contribution:
+\begin{itemize}
+
+\item This is the first work that takes an exhausive look at how to provide a
+method to share GPU resources that can provide performance isolation as well as
+protection across different applications.
+
+\item \titleShort provides a TLB design that allows performance isolatino and
+protection to multiple GPGPU applications that are concurrently running under
+the same host in a unified address space.
+
+\item We are the first to propose a design that can be used to improve the
+quality of service (QoS) when multiple GPGPU applications are concurrently
+running.
+
+\item The interface in \titleShort also provides communication channel between
+GPGPU application and the GPU hardware.
+
+\end{itemize}
+
+
+
+
