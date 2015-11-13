@@ -1,0 +1,5 @@
+ptxas info    : Compiling entry function '_Z10QTC_devicePfPcS0_PiS1_S1_S_S1_iiifiiiib' for 'sm_20'
+ptxas info    : Function properties for _Z10QTC_devicePfPcS0_PiS1_S1_S_S1_iiifiiiib
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 57 registers, 512+0 bytes smem, 129 bytes cmem[0]
+ptxas info    : Compiling entry function '_Z30trim_ungrouped_pnts_indr_arrayiPiPfS_PcS1_S_S_S0_S_iiifib' for 'sm_20'

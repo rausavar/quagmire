@@ -1,0 +1,2 @@
+source set_env inside v3.x to make simulator
+source set_env out of v3.x to make benchmarks
